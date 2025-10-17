@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial setup: Add program creation process and README\n\nSet up repository structure with guidelines for creating automation scripts:\n- Created PROGRAM_CREATION_PROCESS.md with step-by-step process\n- Created README.md with user-friendly instructions\n- Configured automatic git commits for all changes\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
